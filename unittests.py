@@ -87,7 +87,7 @@ class TestArgmax(TestCase):
     def test_argmax_standard(self):
         t = AssemblyTest(self, "argmax.s")
         # create an array in the data section
-        array0 = t.array([3, -42, 432, 7, -5, 6, 5, -114, 2])
+        array0 = t.array([3, -42, 432, 7, -5, 6, 5, -114, 432])
         # load address of the array into register a0
         t.input_array("a0", array0)
         # set a1 to the length of the array
