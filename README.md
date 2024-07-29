@@ -10,3 +10,4 @@ Bug fixed log:
 4. s0 is modified? typo in prologue
 5. m1 stands for mum of clms
 6. using ebreak to circumscribe the scope
+7. learn to read ** char: *(a0+4) -> lw a1, 4(a0)
